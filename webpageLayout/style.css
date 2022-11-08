@@ -1,0 +1,48 @@
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: transparent;
+}
+
+.card-1 {
+    bottom: -10px;
+    left: 3%;
+    background-color: lightgray;
+  }
+
+.card-2 {
+    bottom: 208px;
+    left: 28%;
+    background-color: lightgray;
+  }
+
+.card-3 {
+    bottom: 425px;
+    left: 53%;
+    background-color: lightgray;
+  }
+
+.card-4 {
+    bottom: 640px;
+    left: 78%;
+    background-color: lightgray;
+  }
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    border: 1px solid black;
+  }
+
+.box-1 {
+    position: centered;
+  }
+  
+.box-2 {
+    top: 0;
+    left: 40px;
+  }
+
