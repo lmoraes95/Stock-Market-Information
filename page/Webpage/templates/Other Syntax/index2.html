@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My site</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> 
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script> 
+</head>
+<body>
+
+  <script>
+    function refreshPage(){
+        window.location.reload();
+    } 
+    </script>
+
+<div class="container">
+  <input style="height: 40px;font-size:14pt;" class="storage" type="text" placeholder="Ticker Name">
+  <h2><p style="display:none;" class="text" style="color:#FFFFFF">Text</p></h2>
+  <button style="height: 40px;font-size:14pt;" class="button" onClick="refreshPage()">Search</button>
+ </div>
+
+
+ <!-- <div style="width: 100px; height: 100px; 
+border: solid 1px #ccc; display: inline-block;">
+ <p>This is the first div element.</p>
+ </div>
+
+ <div style="width: 200px; height: 50px; 
+border: solid 1px #ccc; display: inline-block;">
+</div> -->
+
+
+ 
+<div class="div1" id="div3">
+</div>
+
+<div class="div" id="div1">
+</div>
+
+<div class="div" id="div2">
+</div>
+
+<div class="div" id="div4">
+</div>
+
+<div class="div" id="div5">
+</div>
+
+
+
+ <div class ='maingraph' style ='width: 90%' id = 'main-graph'> 
+</div>
+
+  <div style="width: 50%; height: 500px; float: left; background: white;" id = 'graph'> 
+  </div>
+
+<div style="margin-left: 50%; height: 500px; background: white;" id = 'graph2'> 
+</div>
+
+
+<div style="width: 50%; height: 500px; float: left; background: white;" id = 'graph3'> 
+      </div>
+
+  <div style="margin-left: 50%; height: 500px; background: white;" id = 'graph4'> 
+</div>
+
+<div style="width: 50%; height: 500px; float: left; background: white;" id = 'graph5'> 
+</div>
+
+<div style="margin-left: 50%; height: 500px; background: white;" id = 'graph6'> 
+</div>
+<script src="index3.js"></script>
+</body>
+</html>
+
+
