@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>USA Top Stock earning estimate from dataset </title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300'><link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+           <!-- Start of navbar -->
+    <!-- https://www.w3schools.com/bootstrap/bootstrap_navbar.asp -->
+    <!-- End of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index2.html">Home</a>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right collapse navbar-collapse navbar-nav ml-auto">
+          <li><a a class="nav-link text-black" href="earnings.html"><strong>Earnings</strong></a></li>
+        </ul>
+      </div>
+    </nav>
+</head>
+<body>
+  <div class="col-md-4">
+    <div id="anime">
+      <h2 class="count-headline">Total USA Stocks: <span class="STOCK-count">0</span></h2>
+      <h2 class="postive-headline">Postive Earnings: <span class="POSTIVE-count">0</span></h2>
+    </div>
+    
+    <div class="controls">
+    <button class="play-count">COUNT STOCKS</button></div>
+    <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js'></script><script  src="static/script.js"></script>
+  </div>
+  
+  </div>
+
+        <div id="plot"></div>
+        <script src="static/data.js"></script>
+        <script src="static/plots.js"></script>
+   
+
+</body>
+</html>
